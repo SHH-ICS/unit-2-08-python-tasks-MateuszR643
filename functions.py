@@ -6,10 +6,7 @@ import math
 
 def reverseName(myName):
   # Write your code here
-  result = ''
-  for i in range(len(myName)):
-    result += myName[-1 * (i+1)]
-  return result
+  return myName[::-1]
 
 # Returns a float value that is the contents of the myAge variable square rooted
 # ie: passing 16 as the parameter would return 4.0
